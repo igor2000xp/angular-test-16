@@ -1,0 +1,28 @@
+<p class="p-module">component1 works!</p>
+<h4>Basic mat-select</h4>
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select>
+    <mat-option value="one">First option</mat-option>
+    <mat-option value="two">Second option</mat-option>
+    <!-- <select> -->
+    <!-- <mat-option ngClass="expression" *ngFor="let food of foods" [value]="food"> -->
+    <!-- <option *ngFor="let food of foods" [value]="food"> -->
+    <!-- {{food.value}} -->
+    <!-- {{food.viewValue}} -->
+    <!-- </option> -->
+    <!-- </mat-option> -->
+    <!-- </select> -->
+  </mat-select>
+</mat-form-field>
+
+<h4>Basic native select</h4>
+<mat-form-field>
+  <mat-label>Cars</mat-label>
+  <select matNativeControl required>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</mat-form-field>

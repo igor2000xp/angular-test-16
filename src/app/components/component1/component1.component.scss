@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  padding: 1rem;
+  // background: #f4f4f4;
+  // margin-bottom: 1rem;
+  // border-bottom: 1px #ccc dotted;
+
+  .p-module {
+    color: #f00;
+  }
+
+  h3 {
+    color: #f00;
+  }
+
+  .expression {
+    color: blue;
+  }
+
+  .example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+    // font-size: 12px;
+  }
+
+}
