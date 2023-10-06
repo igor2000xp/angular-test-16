@@ -14,7 +14,7 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 @Directive({
   selector: '[appHighlight]'
 })
-export class HighlightDirective {
+export class ExampleDirective {
   @Input() highlightColor: string = 'yellow'; // Default color
 
   constructor(private el: ElementRef) { }
